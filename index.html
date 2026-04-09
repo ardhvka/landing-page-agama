@@ -3,42 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Studi Kasus Pembatal Syahadatain</title>
-
-    <!-- Google Font -->
+    <title>Landing Page</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <!-- Link CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- NAVBAR -->
-    <nav class="navbar">
-      <h2>Pendidikan Agama</h2>
-      <ul>
-        <li><a href="#home">Beranda</a></li>
-        <li><a href="#materi">Materi</a></li>
-        <li><a href="#kesimpulan">Kesimpulan</a></li>
-        <li>
-          <a
-            href="https://ardhvka.github.io/muhammadardhikamaulana/portfolio.html"
-            >Profil Saya</a
-          >
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- Brand -->
+        <a class="navbar-brand fw-bold" href="#">Pendidikan Agama</a>
+
+        <!-- Toggle Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#materi">Materi</a>
+            <a
+              class="nav-link"
+              href="https://ardhvka.github.io/muhammadardhikamaulana/portfolio.html"
+              >Profil Saya</a
+            >
+          </div>
+        </div>
+      </div>
     </nav>
 
     <!-- HERO SECTION -->
     <section class="hero" id="home">
       <div class="hero-content">
-        <h1>Studi Kasus Praktik Pembatal Syahadatain</h1>
+        <h1>Wellcome to my Landing Page</h1>
         <p>
-          Pembahasan akademik mengenai praktik yang dapat membatalkan
-          syahadatain, disertai alasan dan landasan berdasarkan Al-Qur'an dan
-          Hadis.
+          Pembahasan akademik mengenai pendidikan agama berdasarkan Al-Qur'an
+          dan Hadist.
         </p>
         <a href="#materi" class="btn">Pelajari Sekarang</a>
       </div>
@@ -95,10 +114,73 @@
         </p>
       </div>
     </section>
+    <hr class="border-4 border-dark" />
+    <!-- KISAH HIKMAH -->
+    <section class="section hikmah">
+      <h2>Kisah-Kisah Hikmah dalam Al-Qur’an</h2>
+      <p class="intro">
+        Al-Qur’an bukan hanya kitab suci yang berisi perintah dan larangan,
+        tetapi juga memuat kisah-kisah luar biasa yang sarat makna dan penuh
+        pelajaran hidup.
+      </p>
+
+      <div class="grid">
+        <div class="card hikmah-card">
+          <h3>Nabi Ibrahim AS</h3>
+          <p>Keteguhan iman dalam menghadapi ujian berat dan pengorbanan.</p>
+          <span>Keimanan diuji dengan keikhlasan</span>
+        </div>
+
+        <div class="card hikmah-card">
+          <h3>Nabi Nuh AS</h3>
+          <p>
+            Kesabaran berdakwah meskipun menghadapi penolakan bertahun-tahun.
+          </p>
+          <span>Kesabaran adalah kunci</span>
+        </div>
+
+        <div class="card hikmah-card">
+          <h3>Nabi Musa AS</h3>
+          <p>Perjuangan melawan kezaliman dan menegakkan kebenaran.</p>
+          <span>Kebenaran harus diperjuangkan</span>
+        </div>
+
+        <div class="card hikmah-card">
+          <h3>Ashabul Kahfi</h3>
+          <p>Pemuda yang mempertahankan iman di tengah tekanan.</p>
+          <span>Iman harus dijaga dalam kondisi apapun</span>
+        </div>
+
+        <div class="card hikmah-card">
+          <h3>Qarun</h3>
+          <p>
+            Kisah tentang kesombongan akibat kekayaan yang berujung kehancuran.
+          </p>
+          <span>Kesombongan membawa kebinasaan</span>
+        </div>
+      </div>
+
+      <div class="card highlight">
+        <h3>Nilai-Nilai Utama</h3>
+        <ul>
+          <li>Keimanan yang kuat</li>
+          <li>Kesabaran dalam ujian</li>
+          <li>Kejujuran dan kerendahan hati</li>
+          <li>Keberanian membela kebenaran</li>
+          <li>Menjauhi kesombongan</li>
+        </ul>
+      </div>
+    </section>
 
     <!-- FOOTER -->
     <footer>
       <p>© 2026 - Website Pendidikan Agama | created by Ardhika Maulana</p>
     </footer>
   </body>
+  <!--bootstrapt-->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
 </html>

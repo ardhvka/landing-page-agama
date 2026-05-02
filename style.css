@@ -87,6 +87,23 @@ body {
   background: #0096c7;
 }
 
+.btn_uts {
+  display: block;
+  width: fit-content;
+  margin: 15px auto;
+  padding: 0.8rem 1rem;
+  background: #00b4d8;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn_uts:hover {
+  background: #0096c7;
+}
+
 /* CONTENT */
 .section {
   padding: 100px 10%;

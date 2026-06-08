@@ -106,7 +106,7 @@ body {
 
 /* CONTENT */
 .section {
-  padding: 100px 10%;
+  padding: 60px 5%;
 }
 
 .section h2 {
@@ -190,13 +190,23 @@ ul {
 .highlight li {
   margin-bottom: 8px;
 }
+.poster-img {
+  width: 30%;
+  max-width: 1000px;
+  height: 50%;
+  border-radius: 16px;
+  display: block;
+  margin: 0 auto;
+  transition: 0.3s ease;
+}
 
 /* FOOTER */
 footer {
   background: #0d1b2a;
   color: white;
   text-align: center;
-  padding: 20px;
+  margin-top: 20px;
+  padding: 20px 0;
 }
 
 footer p {
